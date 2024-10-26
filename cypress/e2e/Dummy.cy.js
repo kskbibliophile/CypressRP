@@ -12,7 +12,16 @@ describe("This is dummy test",()=>{
 
 
 })
+it("this is 2nd test",()=>{
 
+
+  cy.visit("https://chatgpt.com/?ref=dotcom");
+  cy.log("this is 2nd test")
+
+
+
+
+})
 
 
 
